@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Desenvolvedor Full Stack</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo">Dev<span>Folio</span></a>
+
+      <div id="menu-icon" class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="projects.html">Projetos</a></li>
+          <li><a href="certificates.html">Certificados</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h3>Olá, eu sou</h3>
+        <h1>Vitor Ferrreira<br /><span>Full Stack Dev</span></h1>
+        <p>
+          Especialista em criar experiências digitais de alta performance, do
+          banco de dados ao front-end moderno.
+        </p>
+        <div class="btn-box">
+          <a href="#projects" class="btn">Ver Projetos</a>
+          <a href="#contact" class="btn btn-outline">Fale Comigo</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="./imagens/perfil.png" alt="Foto de Vitor Ferrreira" />
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="heading">Minhas <span>Skills</span></h2>
+      <div class="tech-container">
+        <div class="tech-box"><i class="fab fa-html5"></i> HTML & CSS</div>
+        <div class="tech-box"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="tech-box"><i class="fab fa-python"></i> Python</div>
+        <div class="tech-box"><i class="fab fa-react"></i> React</div>
+        <div class="tech-box"><i class="fab fa-react"></i> React Native</div>
+        <div class="tech-box"><i class="fab fa-vuejs"></i> Vue.js</div>
+        <div class="tech-box"><i class="fab fa-wordpress"></i> WordPress</div>
+        <div class="tech-box"><i class="fas fa-server"></i> Django</div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="heading">Projetos <span>Recentes</span></h2>
+      <div class="projects-container"></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Entre em <span>Contato</span></h2>
+      <form id="contactForm">
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Nome Completo" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Endereço de Email"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <input type="number" name="phone" placeholder="Número de Telefone" />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Assunto do Email"
+            required
+          />
+        </div>
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Sua Mensagem"
+          required
+        ></textarea>
+
+        <button type="submit" class="btn">Enviar Mensagem</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Vitor Ferrreira | Desenvolvido com puro HTML & CSS</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
