@@ -10,15 +10,6 @@ Este projeto não utiliza frameworks pesados; o foco é demonstrar domínio sobr
 
 ---
 
-## 🎨 Layout & Design
-
-| Home / Hero Section | Seção de Projetos |
-|:---:|:---:|
-| ![Home](https://via.placeholder.com/400x200?text=Home+Preview) | ![Projetos](https://via.placeholder.com/400x200?text=Projects+Preview) |
-| *Apresentação impactante com CTA* | *Cards gerados dinamicamente via JS* |
-
----
-
 ## ✨ Funcionalidades Avançadas
 
 Ao contrário de sites estáticos simples, este portfólio inclui funcionalidades interativas robustas:
