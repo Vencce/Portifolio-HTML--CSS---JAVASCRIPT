@@ -4,60 +4,33 @@ const projects = [
     category: "frontend",
     description:
       "Painel administrativo completo com gráficos em tempo real e gestão de usuários.",
-    technologies: ["React", "Chart.js", "Material UI"],
-    image: "./img/ecommerce-dashboard.jpg",
-    githubLink: "#",
-    previewLink: "#",
+    technologies: ["Vue.js", "Vite", "Pinia", "Axios", "CSS Scoped"  ],
+    image: "./imagens/bluepenfront.png",
+    githubLink: "https://github.com/Vencce/BluePen2.0_Front.git",
+    previewLink: "https://bluepen.vercel.app/",
+    alerts: ["render_latency"],
   },
   {
-    title: "API de Gestão de Tarefas",
+    title: "API para Gestão de um ERP",
     category: "backend",
     description:
       "Backend robusto com autenticação JWT, documentação Swagger e testes automatizados.",
-    technologies: ["Node.js", "Express", "PostgreSQL", "Jest"],
-    image: "./img/api-task.jpg",
-    githubLink: "#",
-    previewLink: "#",
+    technologies: [ "Python", "Django DRF", "PostgreSQL", "Render", "ORM Django"],
+    image: "./imagens/backendblue.png",
+    githubLink: "https://github.com/Vencce/BluePen-Back.git",
+    previewLink: "https://bluepen-back.onrender.com/api/",
+    alerts: ["render_latency"],
   },
   {
-    title: "App Financeiro Pessoal",
+    title: "Totem Autoatendimento",
     category: "mobile",
     description:
-      "Aplicação mobile para controle de gastos com sincronização em tempo real na nuvem.",
-    technologies: ["React Native", "Firebase", "Redux"],
-    image: "./img/app-financeiro.jpg",
-    githubLink: "#",
-    previewLink: "#",
-  },
-  {
-    title: "Catálogo de Filmes",
-    category: "frontend",
-    description:
-      "Interface moderna para busca de filmes consumindo API externa com cache local.",
-    technologies: ["Vue.js", "Vuex", "Axios"],
-    image: "./img/catalogo-filmes.jpg",
-    githubLink: "#",
-    previewLink: "#",
-  },
-  {
-    title: "Sistema de Agendamento",
-    category: "backend",
-    description:
-      "API de alta performance para agendamentos de clínicas utilizando Python assíncrono.",
-    technologies: ["Python", "FastAPI", "MongoDB", "Docker"],
-    image: "./img/sistema-agendamento.jpg",
-    githubLink: "#",
-    previewLink: "#",
-  },
-  {
-    title: "Plataforma de Cursos",
-    category: "frontend",
-    description:
-      "Aplicação SPA complexa para ensino a distância com player de vídeo integrado.",
-    technologies: ["Angular", "RxJS", "TypeScript"],
-    image: "./img/plataforma-cursos.jpg",
-    githubLink: "#",
-    previewLink: "#",
+      "Totem de autoatendimento com interface amigável e integração com sistemas de pagamento.",
+    technologies: ["Vue.js", "Pinia", "Vue Router", "Vite", "CSS Scoped"],
+    image: "./imagens/webmcbk.png",
+    githubLink: "https://github.com/Vencce/WebMCBK.git",
+    previewLink: "webmcbk.vercel.app",
+    alerts: ["responsive_warning"],
   },
 ];
 
@@ -66,13 +39,15 @@ const certificates = [
     title: "HTML e CSS: praticando HTML/CSS",
     issuer: "Alura",
     date: "2025",
+    category: "frontend",
     image: "./imagens/HTMLCSS_PRATICANDO.png",
-    link: "certificado/HTML_CSS_Praticando.pdf",
+    link: "certificado/HTMLCSS_PRATICANDO.pdf",
   },
   {
     title: "HTML e CSS: Classes, posicionamento e Flexbox",
     issuer: "Alura",
     date: "2025",
+    category: "frontend",
     image: "./imagens/HTMLCSS_CLASSES.png",
     link: "certificado/HTMLCSS_CLASSES.pdf",
   },
@@ -81,6 +56,7 @@ const certificates = [
       "HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags",
     issuer: "Alura",
     date: "2025",
+    category: "frontend",
     image: "./imagens/HTMLCSS_AMBIENTES.png",
     link: "certificado/HTMLCSS_AMBIENTES.pdf",
   },
@@ -88,6 +64,7 @@ const certificates = [
     title: "HTML e CSS: cabeçalho, footer e variáveis CSS",
     issuer: "Alura",
     date: "2025",
+    category: "frontend",
     image: "./imagens/HTMLCSS_FOOTER.png",
     link: "certificado/HTMLCSS_FOOTER.pdf",
   },
@@ -95,6 +72,7 @@ const certificates = [
     title: "HTML e CSS: responsividade com mobile-first",
     issuer: "Alura",
     date: "2025",
+    category: "frontend",
     image: "./imagens/HTMLCSS_RESPONSIVIDADE.png",
     link: "certificado/HTMLCSS_RESPONSIVIDADE.pdf",
   },
@@ -103,6 +81,7 @@ const certificates = [
       "HTML e CSS: trabalhando com responsividade e publicação de projetos",
     issuer: "Alura",
     date: "2025",
+    category: "frontend",
     image: "./imagens/HTMLCSS_PUBLICANDO.png",
     link: "certificado/HTMLCSS_PUBLICANDO.pdf",
   },
@@ -110,6 +89,7 @@ const certificates = [
     title: "JavaScript: explorando a linguagem",
     issuer: "Alura",
     date: "2025",
+    category: "javascript",
     image: "./imagens/JAVASCRIPT_EXPLORANDO.png",
     link: "certificado/JAVASCRIPT_EXPLORANDO.pdf",
   },
@@ -117,6 +97,7 @@ const certificates = [
     title: "JavaScript: métodos de array",
     issuer: "Alura",
     date: "2025",
+    category: "javascript",
     image: "./imagens/JAVASCRIPT_ARRAY.png",
     link: "certificado/JAVASCRIPT_ARRAY.pdf",
   },
@@ -124,6 +105,7 @@ const certificates = [
     title: "Lógica de programação: explore funções e listas",
     issuer: "Alura",
     date: "2025",
+    category: "logica",
     image: "./imagens/LOGICA_PROGRAMACAO.png",
     link: "certificado/LOGICA_PROGRAMACAO.pdf",
   },
@@ -131,6 +113,7 @@ const certificates = [
     title: "Lógica de programação: mergulhe em programação com JavaScript",
     issuer: "Alura",
     date: "2025",
+    category: "logica",
     image: "./imagens/LOGICA_PROGRAMACAO_JAVASCRIPT.png",
     link: "certificado/LOGICA_PROGRAMACAO_JAVASCRIPT.pdf",
   },
@@ -138,13 +121,15 @@ const certificates = [
     title: "Lógica de programação: praticando com desafios",
     issuer: "Alura",
     date: "2025",
+    category: "logica",
     image: "./imagens/LOGICA_PROGRAMAÇAO_DESAFIOS.png",
-    link: "certificado/LOGICA_PROGRAMACAO_DESAFIOS.pdf",
+    link: "certificado/LOGICA_PROGRAMAÇAO_DESAFIOS.pdf",
   },
   {
     title: "Praticando CSS Flexbox",
     issuer: "Alura",
     date: "2025",
+    category: "frontend",
     image: "./imagens/PRATICANDO_CSS_FLEXBOX.png",
     link: "certificado/PRATICANDO_CSS_FLEXBOX.pdf",
   },
@@ -152,6 +137,7 @@ const certificates = [
     title: "Python: crie a sua primeira aplicação",
     issuer: "Alura",
     date: "2025",
+    category: "backend",
     image: "./imagens/PYTHON_PRIMEIRA_APLICACAO.png",
     link: "certificado/PYTHON_PRIMEIRA_APLICACAO.pdf",
   },
@@ -159,6 +145,7 @@ const certificates = [
     title: "React: comece seu projeto full stack",
     issuer: "Alura",
     date: "2025",
+    category: "frontend",
     image: "./imagens/REACT_FULL_STACK.png",
     link: "certificado/REACT_FULL_STACK.pdf",
   },
@@ -166,6 +153,7 @@ const certificates = [
     title: "WordPress: criando sites do zero com páginas dinâmicas",
     issuer: "Alura",
     date: "2025",
+    category: "wordpress",
     image: "./imagens/WORDPRESS_PAGINAS_DINAMICAS.png",
     link: "certificado/WORDPRESS_PAGINAS_DINAMICAS.pdf",
   },
@@ -173,6 +161,7 @@ const certificates = [
     title: "WordPress: passo a passo para criar seu primeiro blog",
     issuer: "Alura",
     date: "2025",
+    category: "wordpress",
     image: "./imagens/WORDPRESS_PRIMEIRO_BLOG.png",
     link: "certificado/WORDPRESS_PRIMEIRO_BLOG.pdf",
   },
@@ -180,6 +169,20 @@ const certificates = [
 
 const projectsContainer = document.querySelector(".projects-container");
 const filterButtons = document.querySelectorAll(".filter-btn");
+
+function getAlertMarkup(alerts) {
+    let markup = '';
+    
+    if (alerts.includes('render_latency')) {
+        markup += '<p class="alert-text latency">⚠️ Backend hospedado no Render. O servidor pode levar até 1 minuto para ligar.</p>';
+    }
+    if (alerts.includes('responsive_warning')) {
+        markup += '<p class="alert-text responsive">📱 Este projeto pode ter alguns ajustes de responsividade em certos dispositivos.</p>';
+    }
+
+    return markup;
+}
+
 
 if (projectsContainer) {
   function renderProjects(filter = "all") {
@@ -194,6 +197,16 @@ if (projectsContainer) {
       ? filteredProjects.slice(0, 3)
       : filteredProjects;
 
+    if (!isHomePage) {
+        if (projectsToShow.length <= 2 && window.innerWidth > 768) {
+            projectsContainer.classList.add('single-row-layout');
+        } else {
+            projectsContainer.classList.remove('single-row-layout');
+        }
+    } else {
+        projectsContainer.classList.remove('single-row-layout');
+    }
+
     projectsToShow.forEach((project) => {
       const projectCard = document.createElement("div");
       projectCard.classList.add("project-card");
@@ -202,6 +215,8 @@ if (projectsContainer) {
       const techTags = project.technologies
         .map((tech) => `<span class="tech-tag">${tech}</span>`)
         .join("");
+        
+      const alerts = getAlertMarkup(project.alerts || []); 
 
       projectCard.innerHTML = `
                 <div class="project-img">
@@ -210,6 +225,7 @@ if (projectsContainer) {
                 <div class="project-info">
                     <h4>${project.title}</h4>
                     <div class="project-tags">${techTags}</div>
+                    ${alerts} 
                     <p>${project.description}</p>
                     <div class="project-links">
                         <a href="${project.githubLink}" target="_blank"><i class="fab fa-github"></i></a>
@@ -235,17 +251,27 @@ if (projectsContainer) {
 }
 
 const certificatesContainer = document.querySelector(".certificates-container");
+const certificateFilterButtons = document.querySelectorAll(".certificate-filter-btn"); 
 
-if (certificatesContainer) {
-  certificates.forEach((cert) => {
-    const certCard = document.createElement("div");
-    certCard.classList.add("certificate-card");
+function renderCertificates(filter = "all") { 
+    if (!certificatesContainer) return;
 
-    const isPdf = cert.link.toLowerCase().endsWith(".pdf");
-    const btnIcon = isPdf ? "fas fa-file-pdf" : "fas fa-eye";
-    const btnText = isPdf ? "Abrir PDF" : "Visualizar";
+    certificatesContainer.innerHTML = "";
+    
+    const filteredCertificates =
+      filter === "all"
+        ? certificates
+        : certificates.filter((cert) => cert.category === filter);
 
-    certCard.innerHTML = `
+    filteredCertificates.forEach((cert) => {
+      const certCard = document.createElement("div");
+      certCard.classList.add("certificate-card");
+
+      const isPdf = cert.link.toLowerCase().endsWith(".pdf");
+      const btnIcon = isPdf ? "fas fa-file-pdf" : "fas fa-eye";
+      const btnText = isPdf ? "Abrir PDF" : "Visualizar";
+
+      certCard.innerHTML = `
             <div class="cert-img-box">
                 <img src="${cert.image}" alt="${cert.title}">
                 <div class="cert-overlay">
@@ -258,8 +284,22 @@ if (certificatesContainer) {
                 <span class="cert-date">${cert.date}</span>
             </div>
         `;
-    certificatesContainer.appendChild(certCard);
-  });
+      certificatesContainer.appendChild(certCard);
+    });
+}
+
+if (certificatesContainer) {
+    renderCertificates(); 
+    
+    if (certificateFilterButtons.length > 0) { 
+        certificateFilterButtons.forEach((button) => {
+            button.addEventListener("click", () => {
+                certificateFilterButtons.forEach((btn) => btn.classList.remove("active"));
+                button.classList.add("active");
+                renderCertificates(button.getAttribute("data-filter"));
+            });
+        });
+    }
 }
 
 const menuIcon = document.querySelector("#menu-icon");

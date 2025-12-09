@@ -36,3 +36,27 @@
     border-color: var(--primary-color);
     box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
 }
+
+.all-projects .projects-container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.projects-container.single-row-layout {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.projects-container.single-row-layout .project-card {
+    max-width: 400px;
+    flex-basis: 45%; 
+    flex-grow: 0;
+}
+
+@media (max-width: 768px) {
+    .projects-container.single-row-layout .project-card {
+        max-width: 100%;
+        flex-basis: 100%; 
+    }
+}

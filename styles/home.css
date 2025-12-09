@@ -61,7 +61,34 @@
     box-shadow: 0 0 15px var(--primary-color);
 }
 
-/* SKILLS HOME */
+.social-links {
+    margin-top: 30px; 
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: var(--card-bg);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: var(--primary-color);
+    color: var(--bg-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
+    transform: translateY(-5px);
+}
+
 .tech-container {
     display: flex;
     flex-wrap: wrap;
@@ -137,4 +164,8 @@ textarea { resize: none; height: 200px; }
     .hero-content h1 { font-size: 2.5rem; }
     .hero-img img { width: 250px; height: 250px; margin-top: 30px; }
     .input-box input { width: 100%; }
+    
+    .social-links { 
+        justify-content: center;
+    }
 }
